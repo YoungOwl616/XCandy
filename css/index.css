@@ -1,0 +1,88 @@
+@font-face {
+    font-family: hohenzollern;
+    src: url(../CAT\ Hohenzollern.ttf);
+}
+
+@font-face {
+    font-family: forward;
+    src: url(../fff-forward.regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+/* main-card-div styles */
+.main-card-div {
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url("https://media.giphy.com/media/1sEonL5e2UCxa/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -17px 17px 19px rgb(167, 167, 167);
+}
+
+
+/* card-header-div styles */
+.card-header-div {
+    padding-top: 10px;
+}
+
+.logo-h1 {
+    font-family: hohenzollern;
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 15px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EFA3C8;
+}
+
+/* card-body-div styles */
+.card-body-div {
+    margin: 60px 0px;
+}
+
+.catchphrase-h2 {
+    font-family: forward;
+    color: #EFA3C8;
+    text-shadow: 0 0 15px black;
+    margin-bottom: 60px;
+}
+
+.apply-link {
+    font-family: forward;
+    background-color: #EFA3C8;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(58, 58, 58);
+}
+
+.apply-link:hover {
+    background-color: white;
+    color: #EFA3C8;
+}
+
+
+/*card-footer-div styles */
+.acknowledgments-link {
+    font-family: forward;
+    margin: 0px;
+    display: block;
+    padding: 50px 0px;
+    background-color: #EFA3C8;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+}
+
+.acknowledgments-link:hover {
+    background-color: white;
+    color: #EFA3C8;
+}
